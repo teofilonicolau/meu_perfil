@@ -1,0 +1,95 @@
+<html lang="en"></html>
+  <head>
+    <title>Login</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="/css/login.css" />
+  </head>
+  <body>
+    <div id="top">
+      <div id="nav-container">
+        <div class="navbar">
+          <div class="logo">
+            <h1><i>Nico</i></h1>
+          </div>
+          <div class="nav-link">
+            <a href="/index.html">Home</a>
+            <a href="projetos.html">Projetos</a>
+            <a href="sobre.html">Sobre</a>
+            <a href="contato.html">Fale Conosco</a>
+            <a href="login.html">Login</a>
+          </div>
+          <div class="social-media-container">
+            <a
+              href="https://www.youtube.com/@teofilonicolau8402"
+              target="_blank"
+            >
+              <i class="fa fa-youtube-play"></i>
+            </a>
+            <a href="https://www.instagram.com/nao_sou_robot/" target="_blank">
+              <i class="fa fa-instagram"></i>
+            </a>
+            <a
+              href="https://www.linkedin.com/in/teofilo-nicolau/"
+              target="_blank"
+            >
+              <i class="fa fa-linkedin-square"></i>
+            </a>
+            <a href="https://github.com/teofilonicolau" target="_blank">
+              <i class="fa fa-github"></i>
+            </a>
+            <a href="https://wa.me/5588992145589" target="_blank">
+              <i class="fa fa-whatsapp"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      
+      <section>
+        <div class="form-box">
+          <div class="form-value">
+            <form action="">
+              <h2>Login</h2>
+              <div class="inputbox">
+                <ion-icon name="mail-outline"></ion-icon>
+                <input type="email" required />
+                <label for="">Email</label>
+              </div>
+              <div class="inputbox">
+                <ion-icon name="lock-closed-outline"></ion-icon>
+                <input type="password" required />
+                <label for="">Password</label>
+              </div>
+              <div class="forget">
+                <label> <input type="checkbox" /> Remember me </label>
+                <label>
+                  <a href="#">Forgot password?</a>
+                </label>
+              </div>
+              <button>Log in</button>
+              <div class="register">
+                <p>Don't have an account? <a href="#">Register</a></p>
+              </div>
+            </form>
+          </div>
+        </div>
+      </section>
+
+      <script src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+      <script src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+      <script src="script.js"></script>
+      <script>
+        window.onload = function () {
+          window.scrollTo({
+            top: document.body.scrollHeight,
+            behavior: "smooth",
+          });
+        };
+      </script>
+    </div>
+  </body>
+</html>
